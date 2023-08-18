@@ -18,12 +18,6 @@ internal class BackendHandler_PlayFab : BackendHandlerBase
     {
         var taskNotifier = VyTask.Create();
 
-        if (email.ToLower().Equals("dev") && string.IsNullOrEmpty(password))
-        {
-            email = "dev@venly.io";
-            password = "venly123";
-        }
-
         //SignIn with PlayFab, retrieve walletId
         taskNotifier.Scope(async () =>
         {
