@@ -13,17 +13,6 @@ using Venly.Models.Shared;
 
 namespace VenlyDash_Azure
 {
-    //Not Used
-    //public class ClaimCoinsRequest
-    //{
-    //    [JsonProperty("amount")] public int amount { get; private set; }
-    //}
-
-    //public class ClaimCoinsResponse
-    //{
-
-    //}
-
     public class ClaimTokenRequest
     {
         [JsonProperty("random")] public bool RandomDrop { get; private set; }
@@ -153,25 +142,5 @@ namespace VenlyDash_Azure
                 return VyServerResponseDto.Failed(ex);
             }
         }
-
-        //Not Used
-        //[VyExtensionRoute("finish_run")]
-        //public static async VyTask<VyServerResponseDto> FinishRun(PlayFabRequest pfRequest)
-        //{
-        //    try
-        //    {
-        //        var claimRequest = pfRequest.Data.GetJsonContent<ClaimCoinsRequest>();
-
-        //        await UpdateCoinBalance(pfRequest, claimRequest.amount);
-
-        //        await UpdateLeaderboard(pfRequest, claimRequest.amount);
-
-        //        return VyServerResponseDto.Succeeded(new ClaimCoinsResponse());
-        //    }
-        //    catch (Exception ex)
-        //    {
-        //        return VyServerResponseDto.Failed(ex);
-        //    }
-        //}
     }
 }
