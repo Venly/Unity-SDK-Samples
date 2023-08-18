@@ -4,23 +4,25 @@ using System.Threading.Tasks;
 using Newtonsoft.Json;
 using PlayFab;
 using PlayFab.ServerModels;
-using VenlyAPI.Companion;
-using VenlySDK;
-using VenlySDK.Core;
-using VenlySDK.Models.Nft;
-using VenlySDK.Models.Shared;
+using Venly;
+using Venly.Backends;
+using Venly.Companion;
+using Venly.Core;
+using Venly.Models.Nft;
+using Venly.Models.Shared;
 
 namespace VenlyDash_Azure
 {
-    public class ClaimCoinsRequest
-    {
-        [JsonProperty("amount")] public int amount { get; private set; }
-    }
+    //Not Used
+    //public class ClaimCoinsRequest
+    //{
+    //    [JsonProperty("amount")] public int amount { get; private set; }
+    //}
 
-    public class ClaimCoinsResponse
-    {
+    //public class ClaimCoinsResponse
+    //{
 
-    }
+    //}
 
     public class ClaimTokenRequest
     {
@@ -86,7 +88,7 @@ namespace VenlyDash_Azure
             await PlayFabServerAPI.UpdatePlayerStatisticsAsync(updateStatRequest);
         }
 
-        [ExtensionRoute("claim_token")]
+        [VyExtensionRoute("claim_token")]
         public static async VyTask<VyServerResponseDto> ClaimToken(PlayFabRequest pfRequest)
         {
             try
@@ -112,16 +114,14 @@ namespace VenlyDash_Azure
 
                 //Get User Wallet
                 var walletId = await PlayFabExtensions.GetWalletIdForUser(pfRequest.PlayFabId);
-                var userWallet = await Venly.WalletAPI.Client.GetWallet(walletId).AwaitResult();
+                var userWallet = await VenlyAPI.Wallet.GetWallet(walletId).AwaitResult();
 
                 //Mint Token
-                var mintParams = new VyMintTokenDto
+                var mintParams = new VyMintTokensRequest()
                 {
-                    ContractId = VenlyDashTokens.ContractId,
-                    TokenId = tokenInfo.TokenId,
-                    Destinations = new VyMintTokenDto.VyMintDestinationDto[]
+                    Destinations = new VyTokenDestinationDto[]
                     {
-                        new()
+                        new VyTokenDestinationDto()
                         {
                             Address = userWallet.Address,
                             Amount = 1
@@ -129,7 +129,7 @@ namespace VenlyDash_Azure
                     }
                 };
 
-                var token = await Venly.NftAPI.Server.MintToken(mintParams).AwaitResult();
+                var token = await VenlyAPI.Nft.MintTokens(VenlyDashTokens.ContractId, tokenInfo.TokenId, mintParams).AwaitResult();
                 var multiToken = token[0].Metadata.ToObject<VyMultiTokenDto>();
 
                 if (!claimRequest.RandomDrop)
@@ -154,23 +154,24 @@ namespace VenlyDash_Azure
             }
         }
 
-        [ExtensionRoute("finish_run")]
-        public static async VyTask<VyServerResponseDto> FinishRun(PlayFabRequest pfRequest)
-        {
-            try
-            {
-                var claimRequest = pfRequest.Data.GetJsonContent<ClaimCoinsRequest>();
+        //Not Used
+        //[VyExtensionRoute("finish_run")]
+        //public static async VyTask<VyServerResponseDto> FinishRun(PlayFabRequest pfRequest)
+        //{
+        //    try
+        //    {
+        //        var claimRequest = pfRequest.Data.GetJsonContent<ClaimCoinsRequest>();
 
-                await UpdateCoinBalance(pfRequest, claimRequest.amount);
+        //        await UpdateCoinBalance(pfRequest, claimRequest.amount);
 
-                await UpdateLeaderboard(pfRequest, claimRequest.amount);
+        //        await UpdateLeaderboard(pfRequest, claimRequest.amount);
 
-                return VyServerResponseDto.Succeeded(new ClaimCoinsResponse());
-            }
-            catch (Exception ex)
-            {
-                return VyServerResponseDto.Failed(ex);
-            }
-        }
+        //        return VyServerResponseDto.Succeeded(new ClaimCoinsResponse());
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        return VyServerResponseDto.Failed(ex);
+        //    }
+        //}
     }
 }

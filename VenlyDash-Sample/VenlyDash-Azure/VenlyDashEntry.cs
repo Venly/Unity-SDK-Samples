@@ -4,7 +4,7 @@ using Microsoft.Azure.WebJobs;
 using Microsoft.Azure.WebJobs.Extensions.Http;
 using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Logging;
-using VenlyAPI.Companion;
+using Venly.Companion;
 
 namespace VenlyDash_Azure
 {
