@@ -1,0 +1,15 @@
+{
+    "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "UseDevelopmentStorage=true",
+    "FUNCTIONS_WORKER_RUNTIME": "dotnet",
+
+    "PLAYFAB_TITLE_ID": "your-playfab-title-id",
+    "PLAYFAB_DEV_SECRET_KEY": "your-playfab-dev-secret",
+
+    "VENLY_CLIENT_ID": "your-venly-client-id",
+    "VENLY_CLIENT_SECRET_STAGING": "your-venly-staging-secret", 
+    "VENLY_CLIENT_SECRET_PRODUCTION": "can-be-ignored-if-env-is-STAGING",
+    "VENLY_ENVIRONMENT": "STAGING"
+  }
+}
