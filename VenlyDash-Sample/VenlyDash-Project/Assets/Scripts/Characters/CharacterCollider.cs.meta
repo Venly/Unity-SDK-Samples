@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 5173e35522b43b644b3cb876a71640c4
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - controller: {instanceID: 0}
+  - koParticle: {instanceID: 0}
+  - coinSound: {fileID: 8300000, guid: 0017396b8c3b7b54b9f61efd60447312, type: 3}
+  - premiumSound: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

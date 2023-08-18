@@ -1,0 +1,109 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: VenlyNight-Zones
+  m_EditorClassIdentifier: 
+  m_GroupName: VenlyNight-Zones
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 1551eeff13ad1cf4c824ec705f780e27
+  m_SerializeEntries:
+  - m_GUID: 112a0d323d4f9c74a8be485ca13f1fc0
+    m_Address: IndustrialWarehouse01
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 501ed0a8811fde344b2e9e6386f25f31
+    m_Address: IndustrialWarehouse02
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 44b1daccc89f937458f6bce8db9e42af
+    m_Address: IndustrialWarehouse03
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 152f5de51cda2434d87ca626ba156834
+    m_Address: SuburbsGarage01
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: aecebc927f3b0a544b515d4132ff314f
+    m_Address: SuburbsHouse01
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 43677dd6097b78d459862a01c5939986
+    m_Address: SuburbsHouse02
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 52eb040e69c94f14cbc240023f9c35fc
+    m_Address: SuburbsHouse03
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 832f43d00359dce43af7af06bc37ab08
+    m_Address: UrbanBrickWalls01
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 98781f3132393b74eba59c1c5ac8485b
+    m_Address: UrbanBrickWalls02
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: f75de2b9b4f6bb449b29c2e78ff295f0
+    m_Address: UrbanBrickWalls03
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 3bdf63ef1592a8f47984a6de4670cb89
+    m_Address: UrbanBuilding01
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: aa67b505faf291e428772e24b6bad0cd
+    m_Address: UrbanBuilding02
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: cb99191a99fb5894791fc6aa7570f53b
+    m_Address: UrbanBuilding03
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 6906990301dab9f4ca7cf60437ccf02c
+    m_Address: UrbanBuilding04
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 0c336f181c6fd6e47821f1dc568412fa
+    m_Address: UrbanDumpsters01
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: f1f4df47832691b4a94dca3399da3262
+    m_Address: UrbanDumpsters02
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 5defc7785af5c0f4eabea245e9ac7ee5
+    m_Address: UrbanPlasterWalls01
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: f305aabde2ce48d46b3adf6bd96fc02b
+    m_Address: UrbanPlasterWalls02
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: ccf83803a9766894bb58dbe366a7aea6
+    m_Address: UrbanPlasterWalls03
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: ac319ce02dcd55e42bcc3c2de6de2507
+    m_Address: UrbanRoadIntersection
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: f2206bcfac62612468098c22407b2af3
+    m_Address: UrbanRoadTSection
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 735e874f947d0e143a6b4e83f8a7283a, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: c893dfb4c087e044c8b2ec19bececcbe, type: 2}
+    - {fileID: 11400000, guid: d8f75da23bfdd7b499827c5f0706edbe, type: 2}

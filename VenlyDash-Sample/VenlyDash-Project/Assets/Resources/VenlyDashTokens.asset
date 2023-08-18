@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dfaeb0517fb8ccf40aecfd2e0037f2c7, type: 3}
+  m_Name: VenlyDashTokens
+  m_EditorClassIdentifier: Assembly-CSharp:Assets.Scripts.Web3:Web3TokensSO
+  Tokens:
+  - tokenName: Rubbish Raccoon
+    tokenId: 1
+    tokenSprite: {fileID: 21300000, guid: 15f842cf52b98cf49bde301854c3f93a, type: 3}
+  - tokenName: Rubbish Raccoon:Party Hat
+    tokenId: 3
+    tokenSprite: {fileID: 21300000, guid: bdb2d968997bf884cb7a75b4ce355f50, type: 3}
+  - tokenName: Rubbish Raccoon:Shirt Venly
+    tokenId: 5
+    tokenSprite: {fileID: 21300000, guid: 58eb7be34cacd3f4494b51e6317ba9c5, type: 3}
+  - tokenName: Rubbish Raccoon:Safety
+    tokenId: 4
+    tokenSprite: {fileID: 21300000, guid: 2bbc7a36fd1d8fe42b6c0e379856f510, type: 3}
+  - tokenName: Rubbish Raccoon:Cap Venly
+    tokenId: 20
+    tokenSprite: {fileID: 21300000, guid: 2bea6ef03b56fbc4d9e49f89eb73b643, type: 3}
+  - tokenName: Rubbish Raccoon:Shirt GDCVenly
+    tokenId: 45
+    tokenSprite: {fileID: 21300000, guid: 9c94378f33debcb4e95d717f0f49f2e9, type: 3}
+  - tokenName: Trash Cat
+    tokenId: xx
+    tokenSprite: {fileID: 21300000, guid: ce62c051368b2364f80eade5d9f9e97c, type: 3}
+  - tokenName: Trash Cat:Party Hat
+    tokenId: 6
+    tokenSprite: {fileID: 21300000, guid: 679ef1fab497ba944ab0396cb93decdc, type: 3}
+  - tokenName: Trash Cat:Shirt Venly
+    tokenId: 8
+    tokenSprite: {fileID: 21300000, guid: 06b720790667d3b44bfdaa393806e0fe, type: 3}
+  - tokenName: Trash Cat:Safety
+    tokenId: 7
+    tokenSprite: {fileID: 21300000, guid: aceb96a3f03e12f4e8b54db476a746c6, type: 3}
+  - tokenName: Trash Cat:Cap Venly
+    tokenId: 21
+    tokenSprite: {fileID: 21300000, guid: 107fc37bac34a6d44bf55dfb4ca7a87d, type: 3}
+  - tokenName: Trash Cat:Shirt GDCVenly
+    tokenId: 44
+    tokenSprite: {fileID: 21300000, guid: 1fe86dada3c4d9847a5540aa7be93684, type: 3}
+  - tokenName: Trash Cat:Smart
+    tokenId: 30
+    tokenSprite: {fileID: 21300000, guid: 2768c51ece4bb224198bbefc83e5a09f, type: 3}

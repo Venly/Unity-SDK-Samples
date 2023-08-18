@@ -1,0 +1,109 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Venly-Zones
+  m_EditorClassIdentifier: 
+  m_GroupName: Venly-Zones
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 249974d545ca11349bbda95e9c1b3c10
+  m_SerializeEntries:
+  - m_GUID: 235793377e08bbf43a7987d7e85ba9d7
+    m_Address: Assets/Bundles/Themes/Venly/Urban/UrbanBrickWalls01.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 6b8233128f33be249863a17d41522ea3
+    m_Address: Assets/Bundles/Themes/Venly/Urban/UrbanBrickWalls02.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 114efe2902022b448ad36cccfd4ea449
+    m_Address: Assets/Bundles/Themes/Venly/Urban/UrbanBrickWalls03.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 89a1fb0ea28ffc4499071f4096c63455
+    m_Address: Assets/Bundles/Themes/Venly/Urban/UrbanBuilding01.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 643e078adbdc8914098c8d9ff53ea0d1
+    m_Address: Assets/Bundles/Themes/Venly/Urban/UrbanBuilding02.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: a7abdcad56eab2f41b3fe654b1160111
+    m_Address: Assets/Bundles/Themes/Venly/Urban/UrbanBuilding03.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 2140f821f9293324c973a0eccbef9274
+    m_Address: Assets/Bundles/Themes/Venly/Urban/UrbanBuilding04.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 31d1f636f5ad209458514dadda44f845
+    m_Address: Assets/Bundles/Themes/Venly/Urban/UrbanDumpsters01.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: bdb7d673136b57540ad365a16c1d0140
+    m_Address: Assets/Bundles/Themes/Venly/Urban/UrbanDumpsters02.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: e8382710271fd3d448336f000dc62c98
+    m_Address: Assets/Bundles/Themes/Venly/Urban/UrbanPlasterWalls01.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 92ff24db74e611a46b37a27315ef65f1
+    m_Address: Assets/Bundles/Themes/Venly/Urban/UrbanPlasterWalls02.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 3c686a2ebe83a8f4382ccff3e690e601
+    m_Address: Assets/Bundles/Themes/Venly/Urban/UrbanPlasterWalls03.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 9f2d87d109d480848ae4e7f6accbf289
+    m_Address: Assets/Bundles/Themes/Venly/Urban/UrbanRoadIntersection.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 603ed6d872a25e347b326c76cb0837de
+    m_Address: Assets/Bundles/Themes/Venly/Urban/UrbanRoadTSection.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: ab226f8b2c5b2a54589f574e8cd73b0c
+    m_Address: Assets/Bundles/Themes/Venly/Suburbs/SuburbsGarage01.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 204cff0fd06df004f83a098351a16542
+    m_Address: Assets/Bundles/Themes/Venly/Suburbs/SuburbsHouse01.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 81e5f969b2407f04c809425ef22e3e5b
+    m_Address: Assets/Bundles/Themes/Venly/Suburbs/SuburbsHouse02.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 806634c73df6dd142aa7ce3b1e6075c0
+    m_Address: Assets/Bundles/Themes/Venly/Suburbs/SuburbsHouse03.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: a7d0727c57096e943bff58608680bde8
+    m_Address: IndustrialWarehouse03
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 8401f7862d34ece49b14106f9c23b868
+    m_Address: IndustrialWarehouse02
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 615401a1a92b00a4ab8c370ded198a77
+    m_Address: IndustrialWarehouse01
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 735e874f947d0e143a6b4e83f8a7283a, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 06e5b23b599ff4b4f821f3e7450ac7bc, type: 2}
+    - {fileID: 11400000, guid: 5d4e896100ea0804a83ad0db374ee23e, type: 2}
