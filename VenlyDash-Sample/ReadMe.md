@@ -1,5 +1,7 @@
 # Venly Dash Project Source
 
+Try it here >> [WEBGL Demo](https://venly.me/venlydash)
+
 ## VenlyDash-Project
 Venly Dash is a Web3 adaptation of Unity's Endless Runner [Trash Dash Sample](https://github.com/Unity-Technologies/EndlessRunnerSampleGame) project.
 
