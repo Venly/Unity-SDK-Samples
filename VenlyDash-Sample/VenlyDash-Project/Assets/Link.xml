@@ -7,4 +7,7 @@
 		<type fullname="UnityEngine.Advertisements" preserve="all" />
 		<type fullname="UnityEngine.SpriteRenderer" preserve="all" />
 	</assembly>
+  <assembly fullname="VenlyAPI.Core.Unity">
+    <type fullname="Venly.Models.Shared.VyServerResponseDto" preserve="all"/>
+  </assembly>
 </linker>

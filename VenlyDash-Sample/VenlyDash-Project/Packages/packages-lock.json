@@ -262,13 +262,13 @@
       "url": "https://packages.unity.com"
     },
     "com.venly.sdk": {
-      "version": "git+https://github.com/ArkaneNetwork/Unity-SDK.git?path=Packages/com.venly.sdk#v1.0.8",
+      "version": "git+https://github.com/ArkaneNetwork/Unity-SDK.git?path=Packages/com.venly.sdk#v1.0.9",
       "depth": 0,
       "source": "git",
       "dependencies": {
         "com.unity.nuget.newtonsoft-json": "3.0.2"
       },
-      "hash": "473428d5d17b34e6b85a11a6ded8d8d746bd29f7"
+      "hash": "10ec37b9bbfe30eaff933118966bf98175c58e37"
     },
     "nuget.mono-cecil": {
       "version": "1.0.0",

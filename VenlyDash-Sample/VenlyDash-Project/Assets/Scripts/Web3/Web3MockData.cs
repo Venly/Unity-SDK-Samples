@@ -39,7 +39,7 @@ static class Web3MockData
     public static VyWalletDto CreateMockWallet()
     {
         var walletJson =
-            "{\"id\":\"aebf7eb4-7329-417a-886b-7dd0e8f2e81a\",\"address\":\"0x887564C58107b72Fa2eEE8ecC26a12BcF5d92Ac0\",\"walletType\":\"WHITE_LABEL\",\"secretType\":\"MATIC\",\"createdAt\":\"2023-03-01T14:45:15.403\",\"archived\":false,\"description\":\"UserTestWalletforVenlyDashSample\",\"primary\":false,\"hasCustomPin\":true,\"identifier\":\"VENLY_DASH_USER\",\"balance\":{\"available\":true,\"secretType\":\"MATIC\",\"balance\":0.1937358,\"gasBalance\":0.0,\"symbol\":\"MATIC\",\"gasSymbol\":\"MATIC\",\"rawBalance\":\"0\",\"rawGasBalance\":\"0\",\"decimals\":18}}";
+            "{\"id\":\"aebf7eb4-7329-417a-886b-7dd0e8f2e81a\",\"address\":\"0x887564C58107b72Fa2eEE8ecC26a12BcF5d92Ac0\",\"walletType\":\"API_WALLET\",\"secretType\":\"MATIC\",\"createdAt\":\"2023-03-01T14:45:15.403\",\"archived\":false,\"description\":\"UserTestWalletforVenlyDashSample\",\"primary\":false,\"hasCustomPin\":true,\"identifier\":\"VENLY_DASH_USER\",\"balance\":{\"available\":true,\"secretType\":\"MATIC\",\"balance\":0.1937358,\"gasBalance\":0.0,\"symbol\":\"MATIC\",\"gasSymbol\":\"MATIC\",\"rawBalance\":\"0\",\"rawGasBalance\":\"0\",\"decimals\":18}}";
 
         return JsonConvert.DeserializeObject<VyWalletDto>(walletJson);
     }

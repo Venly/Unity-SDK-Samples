@@ -40,7 +40,7 @@ internal class BackendHandler_PlayFab : BackendHandlerBase
             var wallet = await VenlyAPI.ProviderExtensions.GetWalletForUser().AwaitResult();
 
             //Set Wallet
-            await PlayerDataWeb3.instance.Refresh(wallet);
+            var refreshResult = await PlayerDataWeb3.instance.Refresh(wallet);
 
             taskNotifier.NotifySuccess();
         });
@@ -74,7 +74,7 @@ internal class BackendHandler_PlayFab : BackendHandlerBase
                 Identifier = DefaultWalletIdentifier,
                 Description = $"VenlyDash Demo Wallet for PlayFab User (id={loginResult.PlayFabId} | {email})",
                 Pincode = pincode,
-                WalletType = eVyWalletType.WhiteLabel
+                WalletType = eVyWalletType.ApiWallet
             };
 
             var wallet = await VenlyAPI.ProviderExtensions.CreateWalletForUser(createParams).AwaitResult();
