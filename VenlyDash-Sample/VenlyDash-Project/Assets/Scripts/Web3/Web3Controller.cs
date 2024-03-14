@@ -3,7 +3,10 @@ using System.Collections.Generic;
 using Newtonsoft.Json;
 using UnityEngine;
 using UnityEngine.Assertions;
+using Venly;
 using Venly.Core;
+using Venly.Models.Market;
+using Venly.Models.Nft;
 using Venly.Models.Shared;
 using Venly.Models.Wallet;
 
@@ -52,6 +55,8 @@ public static class Web3Controller
         _backendHandler = new BackendHandler_DevMode();
 #elif ENABLE_VENLY_PLAYFAB
         _backendHandler = new BackendHandler_PlayFab();
+#elif ENABLE_VENLY_BEAMABLE
+        _backendHandler = new BackendHandler_Beamable();
 #endif
 
         Assert.IsNotNull(_backendHandler);
@@ -73,7 +78,7 @@ public static class Web3Controller
 
             taskNotifier.Scope(async () =>
             {
-#if ENABLE_VENLY_PLAYFAB || ENABLE_VENLY_DEVMODE
+#if ENABLE_VENLY_PLAYFAB || ENABLE_VENLY_DEVMODE || ENABLE_VENLY_BEAMABLE
                 await SignIn(null, null);
 #else
                 await SignIn_Demo();
@@ -86,6 +91,7 @@ public static class Web3Controller
         }
 
         _isInitialized = true;
+
         return VyTask.Succeeded();
     }
 

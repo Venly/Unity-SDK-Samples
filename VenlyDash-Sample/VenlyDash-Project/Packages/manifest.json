@@ -1,5 +1,7 @@
 {
   "dependencies": {
+    "com.beamable": "1.19.15",
+    "com.beamable.server": "1.19.15",
     "com.tools.webglthreadingpatcher": "git+https://github.com/VolodymyrBS/WebGLThreadingPatcher.git",
     "com.unity.2d.sprite": "1.0.0",
     "com.unity.2d.tilemap": "1.0.0",
@@ -20,7 +22,7 @@
     "com.unity.timeline": "1.7.3",
     "com.unity.ugui": "1.0.0",
     "com.unity.visualscripting": "1.8.0",
-    "com.venly.sdk": "git+https://github.com/ArkaneNetwork/Unity-SDK.git?path=Packages/com.venly.sdk#v1.0.9",
+    "com.venly.sdk": "git+https://github.com/ArkaneNetwork/Unity-SDK.git?path=Packages/com.venly.sdk#v1.0.10",
     "com.unity.modules.ai": "1.0.0",
     "com.unity.modules.androidjni": "1.0.0",
     "com.unity.modules.animation": "1.0.0",

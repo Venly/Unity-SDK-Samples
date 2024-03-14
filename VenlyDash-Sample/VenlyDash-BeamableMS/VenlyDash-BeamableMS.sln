@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "services", "services", "{31063C7A-A226-45FC-AC0B-97C91C629131}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VenlyService", "services\VenlyService\VenlyService.csproj", "{568F4E7E-D519-4FD2-9CEB-4CAF0495DAFE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VenlyServiceCommon", "services\VenlyServiceCommon\VenlyServiceCommon.csproj", "{F9D5DF66-51A8-45FD-80D6-8670B9C5E8B0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{568F4E7E-D519-4FD2-9CEB-4CAF0495DAFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{568F4E7E-D519-4FD2-9CEB-4CAF0495DAFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{568F4E7E-D519-4FD2-9CEB-4CAF0495DAFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{568F4E7E-D519-4FD2-9CEB-4CAF0495DAFE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F9D5DF66-51A8-45FD-80D6-8670B9C5E8B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9D5DF66-51A8-45FD-80D6-8670B9C5E8B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9D5DF66-51A8-45FD-80D6-8670B9C5E8B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9D5DF66-51A8-45FD-80D6-8670B9C5E8B0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{568F4E7E-D519-4FD2-9CEB-4CAF0495DAFE} = {31063C7A-A226-45FC-AC0B-97C91C629131}
+		{F9D5DF66-51A8-45FD-80D6-8670B9C5E8B0} = {31063C7A-A226-45FC-AC0B-97C91C629131}
+	EndGlobalSection
+EndGlobal

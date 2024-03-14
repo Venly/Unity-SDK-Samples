@@ -72,5 +72,6 @@ crashlytics-build.properties
 /[Aa]ssets/[Ss]treamingAssets/aa/*
 
 # Venly Resources
-*/[Rr]esources/VenlyEditorData.*
-*/[Rr]esources/VenlySettings.*
+**/[Rr]esources/VenlyEditorData.*
+**/[Rr]esources/VenlySettings.*
+**/[Rr]esources/config-defaults.*
