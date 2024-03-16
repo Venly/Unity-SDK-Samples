@@ -18,11 +18,9 @@ internal class BackendHandler_Beamable : BackendHandlerBase
     public override VyTask SignIn(string email, string password)
     {
         var taskNotifier = VyTask.Create();
-        
-        var assemblies = AppDomain.CurrentDomain.GetAssemblies();
-        var targetAss = assemblies.FirstOrDefault(ass => ass.GetType("Beamable.Server.Clients.VenlyServiceClient") != null);
-        
-        Debug.Log(targetAss);
+
+        VenlyAPI.Wallet.GetSupportedChains()
+            .OnFail(Debug.LogException);
 
         taskNotifier.Scope(async () =>
         {

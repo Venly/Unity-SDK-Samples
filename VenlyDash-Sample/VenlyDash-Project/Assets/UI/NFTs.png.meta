@@ -20,11 +20,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
-  ignoreMasterTextureLimit: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -63,6 +64,7 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
   cookieLightType: 0
   platformSettings:
   - serializedVersion: 3
@@ -425,21 +427,20 @@ TextureImporter:
     secondaryTextures: []
     nameFileIdTable:
       RubbishRaccoon_CapVenly_id20: 1410299141
-      TrashCat_Safety_id7: 1129507004
-      RubbishRaccoon_ShirtVenly_id5: -1275691696
-      TrashCat_Smart_id30: 1329193390
       RubbishRaccoon_PartyHat_id3: -100866591
-      TrashCat_ShirtGDCVenly_id19: 440760544
-      TrashCat_id2: -842537942
-      TrashCat_PartyHat_id6: -836774231
-      RubbishRaccoon_ShirtGDCVenly_id18: 663412945
       RubbishRaccoon_Safety_id4: 1652806024
-      TrashCat_ShirtVenly_id8: 485273319
+      RubbishRaccoon_ShirtGDCVenly_id18: 663412945
+      RubbishRaccoon_ShirtVenly_id5: -1275691696
       RubbishRaccoon_id1: -810234047
       TrashCat_CapVenly_id21: -2085881683
-  spritePackingTag: 
+      TrashCat_PartyHat_id6: -836774231
+      TrashCat_Safety_id7: 1129507004
+      TrashCat_ShirtGDCVenly_id19: 440760544
+      TrashCat_ShirtVenly_id8: 485273319
+      TrashCat_Smart_id30: 1329193390
+      TrashCat_id2: -842537942
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

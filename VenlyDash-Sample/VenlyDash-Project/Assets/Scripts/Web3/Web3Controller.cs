@@ -9,6 +9,7 @@ using Venly.Models.Market;
 using Venly.Models.Nft;
 using Venly.Models.Shared;
 using Venly.Models.Wallet;
+using Venly.Utils;
 
 #region DTOs
 public class ClaimTokenRequest
@@ -67,6 +68,21 @@ public static class Web3Controller
     {
         if (_isInitialized)
             return VyTask.Succeeded();
+
+        ////Init Logger
+        //VenlyLog.OnLog += (log) =>
+        //{
+        //    switch (log.level)
+        //    {
+        //        case VenlyLog.eVyLogLevel.Debug:
+        //        case VenlyLog.eVyLogLevel.Info:
+        //            Debug.Log(log.message); break;
+        //        case VenlyLog.eVyLogLevel.Warning:
+        //            Debug.LogWarning(log.message); break;
+        //        case VenlyLog.eVyLogLevel.Exception:
+        //            Debug.LogException(log.exception); break;
+        //    }
+        //};
 
         //Init PlayerDataWeb3
         PlayerDataWeb3.instance.Init();

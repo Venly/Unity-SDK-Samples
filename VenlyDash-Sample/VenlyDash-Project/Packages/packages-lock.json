@@ -42,7 +42,10 @@
       "version": "1.0.0",
       "depth": 0,
       "source": "builtin",
-      "dependencies": {}
+      "dependencies": {
+        "com.unity.modules.tilemap": "1.0.0",
+        "com.unity.modules.uielements": "1.0.0"
+      }
     },
     "com.unity.addressables": {
       "version": "1.21.8",
@@ -112,12 +115,12 @@
       "depth": 0,
       "source": "builtin",
       "dependencies": {
-        "com.unity.ide.visualstudio": "2.0.16",
-        "com.unity.ide.rider": "3.0.16",
+        "com.unity.ide.visualstudio": "2.0.17",
+        "com.unity.ide.rider": "3.0.18",
         "com.unity.ide.vscode": "1.2.5",
         "com.unity.editorcoroutines": "1.0.0",
-        "com.unity.performance.profile-analyzer": "1.1.1",
-        "com.unity.test-framework": "1.1.31",
+        "com.unity.performance.profile-analyzer": "1.2.2",
+        "com.unity.test-framework": "1.1.33",
         "com.unity.testtools.codecoverage": "1.2.2"
       }
     },
@@ -154,7 +157,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.nuget.mono-cecil": {
-      "version": "1.10.1",
+      "version": "1.11.4",
       "depth": 2,
       "source": "registry",
       "dependencies": {},
@@ -168,7 +171,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.performance.profile-analyzer": {
-      "version": "1.1.1",
+      "version": "1.2.2",
       "depth": 1,
       "source": "registry",
       "dependencies": {},
@@ -196,12 +199,13 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.services.analytics": {
-      "version": "4.2.0",
+      "version": "4.3.0",
       "depth": 1,
       "source": "registry",
       "dependencies": {
         "com.unity.ugui": "1.0.0",
-        "com.unity.services.core": "1.4.0"
+        "com.unity.services.core": "1.4.0",
+        "com.unity.nuget.newtonsoft-json": "3.0.2"
       },
       "url": "https://packages.unity.com"
     },
@@ -217,7 +221,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.settings-manager": {
-      "version": "1.0.3",
+      "version": "2.0.1",
       "depth": 2,
       "source": "registry",
       "dependencies": {},
@@ -295,13 +299,12 @@
       "url": "https://packages.unity.com"
     },
     "com.venly.sdk": {
-      "version": "git+https://github.com/ArkaneNetwork/Unity-SDK.git?path=Packages/com.venly.sdk#v1.0.10",
+      "version": "file:D:/_VENLY/_GIT/GSDK/_Unity3D/VenlySDK/Unity/VenlySDK_Main/Packages/com.venly.sdk",
       "depth": 0,
-      "source": "git",
+      "source": "local",
       "dependencies": {
         "com.unity.nuget.newtonsoft-json": "3.0.2"
-      },
-      "hash": "f781d4cbd8b1bd0a52f94f975e32d8bde6c7a2cc"
+      }
     },
     "nuget.mono-cecil": {
       "version": "1.0.0",
@@ -442,17 +445,6 @@
     "com.unity.modules.uielements": {
       "version": "1.0.0",
       "depth": 0,
-      "source": "builtin",
-      "dependencies": {
-        "com.unity.modules.ui": "1.0.0",
-        "com.unity.modules.imgui": "1.0.0",
-        "com.unity.modules.jsonserialize": "1.0.0",
-        "com.unity.modules.uielementsnative": "1.0.0"
-      }
-    },
-    "com.unity.modules.uielementsnative": {
-      "version": "1.0.0",
-      "depth": 1,
       "source": "builtin",
       "dependencies": {
         "com.unity.modules.ui": "1.0.0",
