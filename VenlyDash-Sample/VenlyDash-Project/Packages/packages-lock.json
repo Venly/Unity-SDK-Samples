@@ -262,7 +262,7 @@
       "url": "https://packages.unity.com"
     },
     "com.venly.sdk": {
-      "version": "git+https://github.com/ArkaneNetwork/Unity-SDK.git?path=Packages/com.venly.sdk#v1.0.8",
+      "version": "git+https://github.com/Venly/Unity-SDK.git?path=Packages/com.venly.sdk#v1.0.8",
       "depth": 0,
       "source": "git",
       "dependencies": {
